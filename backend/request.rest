@@ -1,0 +1,29 @@
+###
+GET http://localhost:5000/notes
+
+###
+GET http://localhost:5000/notes/1
+
+###
+POST  http://localhost:5000/notes
+Content-Type: application/json
+
+{
+    "matakuliah": "TCC",
+    "judul": "tes",
+    "isi": "sebenarnya aku bingung mau isi ini dengan apa yaudah ini buat ngetes",
+    "deadline": ""
+}
+
+###
+PATCH  http://localhost:5000/notes/1
+Content-Type: application/json
+
+{
+    "matakuliah": "TCC",
+    "judul": "apa itu tcc?",
+    "deadline": ""
+}
+
+###
+DELETE http://localhost:5000/notes/1
