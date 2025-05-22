@@ -5,7 +5,7 @@ GET http://localhost:5000/notes
 GET http://localhost:5000/notes/3
 
 ###
-POST  http://localhost:5000/notes
+POST https://notes-be-fadhil-21569344527.us-central1.run.app/notes
 Content-Type: application/json
 
 {
@@ -14,6 +14,7 @@ Content-Type: application/json
     "isi": "post tanpa xampp dengan menggunakan ip cloud storage",
     "deadline": ""
 }
+
 
 ###
 PATCH  http://localhost:5000/notes/14
